@@ -1,0 +1,101 @@
+body {
+  background-color: lightblue;
+}
+h2{
+   color: beige;
+   font-size: 40px;
+   font-family: papyrus;
+}
+header{
+  text-align: center;
+  margin: 0px;
+  padding: 100px;
+  background-image: url("360_F_276080724_hltnCyDjcqAyRtLzDYo3T2jXbBtCD7fl.jpg");
+  background-size: width = "1000px", lenght = "1000px";
+  font-size: 50px;
+  color: floralwhite;
+}
+nav{
+  color: whitesmoke;
+  font-size: 30px;
+  margin:20px;
+  padding:10px;
+  float: left;
+  width: 20%;
+  font-family: copperplate;
+ }
+#main-heading{
+  font-size: 50px;
+  text-align: center;
+  color: floralwhite;
+  font-family: arial;
+}
+ #task{
+ padding: 20px;
+ font-family: copperplate;
+ margin: 10px;
+ color: darkblue ;
+ float: left;
+ width: 70%;
+ font-size: 20px;
+ width: 1000px;
+ height: 500px;
+ background-color: lightblue;
+ animation-name: example;
+ animation-duration: 60s;
+ }
+
+#requirements,#submission, #grading, #deadline {
+  color: darkblue;
+  font-size: 20px;
+  font-family: copperplate;
+  float: right;
+  width: 70%;
+  padding: 20px;
+  margin: 20px;
+}
+
+a[href^="#"] {
+  background-color: aliceblue;
+}
+
+a:link {
+  color: royalblue;
+  border: 2px solid darkblue;
+  padding: 10px 20px;
+  text-align: horizontal center;
+  display: inline-block;
+
+}
+a:visited {
+  color: mediumpurple;
+  border: 2px solid darkblue;
+  padding: 10px 20px;
+  text-align: horizontal center;
+  display: inline-block;
+
+}
+a:hover {
+  background-color: lightblue;
+  border: 2px solid skyblue;
+}
+a:active {
+  color: blue;
+}
+@keyframes example {
+  0%   {background-color: royalblue;}
+  25%  {background-color: lightblue;}
+  50%  {background-color: skyblue;}
+  100% {background-color: aliceblue;}
+}
+.contacts {
+  font_size: 20px;
+  color: darkblue;
+}
+
+
+
+
+
+
+
