@@ -45,7 +45,17 @@ nav{
  animation-duration: 60s;
  }
 
-#requirements,#submission, #grading, #deadline {
+h3{
+  color: beige;
+  font-size: 40px;
+  font-family: papyrus;
+  float: right;
+  width: 70%;
+  padding: 20px;
+  margin: 20px;
+}
+
+#requirements,#submission, #grading, #deadline, .dummy, .contacts, .map, .categories, .quick_links{
   color: darkblue;
   font-size: 20px;
   font-family: copperplate;
@@ -88,13 +98,77 @@ a:active {
   50%  {background-color: skyblue;}
   100% {background-color: aliceblue;}
 }
-.contacts {
-  font_size: 20px;
-  color: darkblue;
+
+@media only screen and (min-width: 20em) {
+  nav{
+  font-size: 1.5em;
+  width:90%
+  float: center;
+  }
+  header{
+  background-size: width = "100%", lenght = "40em";  
+  }
+  #task{
+    width: 90%;
+    font-size: 1.3em;
+    height: auto;
+    }
+  #requirements,#submission, #grading, #deadline, .dummy, .contacts, .map, .categories, .quick_links{
+    width: 90%;
+    font-size: 1.5em;
+  }
+  img {
+  width: 100%;
+  height: auto;
 }
+@media only screen and (min-width: 45em){
+  nav{
+  font-size: 1.25em;
+  width:20%
+  float: left;
+  }
+  header{
+  background-size: width = "90%", lenght = "60em";  
+  }
+  #task{
+    width: 60%;
+    float:right;
+    font-size: 1.25em;
+    height: auto;
+    }
+  #requirements,#submission, #grading, #deadline, .dummy, .contacts, .map, .categories, .quick_links{
+    width: 90%;
+    font-size: 1.25em;
+  }
+  img {
+  width: 100%;
+  height: auto;
+}
+}
+ @media only screen and (min-width: 60em){
+  nav{
+  font-size: 1.25em;
+  width:20%;
+  float: left;
+  }
+  header{
+  background-size: width = "90%", lenght = "60em";  
+  }
+  #task{
+    width: 65%;
+    float:right;
+    }
+  #requirements,#submission, #grading, #deadline, .dummy, .contacts, .map, .categories, .quick_links{
+    width: 70%;
+    float: right;
+  }
+  img{
+    max-width:30%;
+    height: auto;
 
-
-
+  }
+ }   
+ 
 
 
 
