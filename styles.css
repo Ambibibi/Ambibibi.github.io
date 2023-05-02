@@ -1,0 +1,164 @@
+body {
+	background-color: #DAE3E6;
+	background-image: url("images/ARAILYMSAKENOVA.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+h1{
+	color: #0C0C1E;
+	font-size: 300%;
+	text-align: center;
+	font-family: 'Courier New', monospace;
+	margin: 2.0em 0.3125em 3.125em 0.3125em;
+}
+h2{
+	font-family: 'Courier New', monospace;
+	font-size: 1.875em;
+	color:#ADC4D7;
+}
+p {
+  padding:;
+  background-color: #738580;
+  color:#F7EDD0;
+  font-family: 'Courier New', monospace;
+  font-size: 1.25em;
+}
+
+#aboutme{
+	margin-top: 70%;
+}
+
+article ul{
+  background-color: #738580;
+  color:#F7EDD0;
+  font-family: 'Courier New', monospace;
+  font-size: 1.2em;
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+nav ul {
+  margin:0;
+  padding:0;
+  list-style: none;
+  overflow:hidden;
+  background-color: #0C0C1E;
+  padding: 0.3125em;
+}
+
+nav i{
+	font-size: 1.0625em;
+	float: left
+}
+
+nav li {
+  float: left;
+}
+
+nav a{
+  display: block;
+  padding: 0.875em 1em;
+  text-align: center;
+  font-size:1.0625em;
+  color:#F7EDD0;
+}
+
+nav a:link{
+  color: #F7EDD0;
+  padding: 0.4em 1.25em;
+  border: 0.125em;
+  text-align: center;
+}
+
+nav a:hover{
+  color: #ADC4D7;
+  font-size: 1.25em;
+}
+
+nav a.icon {
+  position: fixed;
+  background: #0C0C1E;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 3.125em;
+  height: 0.9375em;
+  font-size: 1.5625em;
+}
+
+
+/*Responsiveness*/
+
+@media only screen and (min-width: 20em){
+    #myLinks {
+        display: none;}
+    h1{
+	    font-size: 130%;}
+	h2{
+	    font-size:1.25em;
+	}
+	p{
+	font-size: 0.75em;
+}
+}
+
+
+@media only screen and (min-width: 47em){
+#myLinks {
+    display: none;
+}
+h1{
+	font-size: 220%;}
+h2{
+	font-size:1.5em;
+
+}
+p{
+	font-size: 1em;
+}
+}
+
+
+
+@media only screen and (min-width: 61em){
+    #myLinks {
+        display: block;}
+    h1{
+	font-size: 300%;}
+	h2{
+	font-size:1.875em;
+}
+p{
+	font-size: 1.25em;
+}
+}
+
+
+/*Contact me*/
+
+h2.contact{
+	background-color: transparent;
+	font-size: 1em;
+	
+}
+.contact{
+	font-size: 1.875em;
+	float: left;
+}
+
+article a{
+	color: #F7EDD0;
+	font-family: 'Courier New', monospace;
+    font-size: 1.25em;
+
+}
+article a:hover{
+	background-color: #738580;
+}
+
+
